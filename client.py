@@ -37,7 +37,7 @@ class Player:
 
         self.rect = (self.x,self.y,self.width,self.height)
 
-        
+
 
 
 def reDrawWindow(win, player):
