@@ -9,15 +9,6 @@ pygame.display.set_caption("Client")
 
 clientNumber = 0
 
-def read_pos(str):
-    str = str.split(",")
-    print(str)
-    return int(str[0]), int(str[1])
-
-def make_pos(tup):
-    print(tup[0])
-    return str(tup[0]) + "," + str(tup[1])
-
 def reDrawWindow(win, player, player2):
     win.fill((255,255,255)) 
     player.draw(win)
